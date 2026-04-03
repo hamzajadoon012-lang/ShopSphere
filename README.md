@@ -1,6 +1,6 @@
-# ShopSphere - Affiliate Marketing Website
+# Hamzify - Affiliate Marketing Website
 
-A comprehensive, high-class affiliate marketing website for ShopSphere, featuring Amazon-style design with full mobile responsiveness.
+A comprehensive, high-class affiliate marketing website for Hamzify, featuring Amazon-style design with full mobile responsiveness.
 
 ## Features
 
@@ -185,7 +185,7 @@ To add/modify products, edit the product grid in `index.html`:
 
 ## License
 
-This template is created for ShopSphere. All images are AI-generated for demonstration purposes.
+This template is created for Hamzify. All images are AI-generated for demonstration purposes.
 
 ## Support
 

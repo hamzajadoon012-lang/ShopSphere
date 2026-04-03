@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- TODO: Replace https://example.com with your real domain -->
+  <!-- TODO: Replace https://hamzify.site with your real domain -->
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://hamzify.site/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.com/index.html</loc>
+    <loc>https://hamzify.site/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://example.com/blog.html</loc>
+    <loc>https://hamzify.site/blog.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/blog-best-under-50.html</loc>
+    <loc>https://hamzify.site/blog-best-under-50.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/blog-top-rated-2026.html</loc>
+    <loc>https://hamzify.site/blog-top-rated-2026.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/blog-fashion-under-100.html</loc>
+    <loc>https://hamzify.site/blog-fashion-under-100.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/fashion.html</loc>
+    <loc>https://hamzify.site/fashion.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/garden.html</loc>
+    <loc>https://hamzify.site/garden.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/beauty.html</loc>
+    <loc>https://hamzify.site/beauty.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/digital.html</loc>
+    <loc>https://hamzify.site/digital.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

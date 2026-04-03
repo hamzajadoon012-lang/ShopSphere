@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# TODO: Replace https://example.com with your real domain
-Sitemap: https://example.com/sitemap.xml
+# TODO: Replace https://hamzify.site with your real domain
+Sitemap: https://hamzify.site/sitemap.xml

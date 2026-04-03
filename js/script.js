@@ -1,5 +1,5 @@
 /**
- * ShopSphere - Affiliate Marketing Website
+ * Hamzify - Affiliate Marketing Website
  * JavaScript Functionality
  */
 
@@ -140,7 +140,7 @@
     // ========================================
     // FAVORITES (WISHLIST)
     // ========================================
-    const FAVORITES_KEY = 'ShopSphere:favorites';
+    const FAVORITES_KEY = 'Hamzify:favorites';
 
     function getFavorites() {
         try {
@@ -867,7 +867,7 @@
     // ========================================
     // EXPOSE GLOBAL FUNCTIONS
     // ========================================
-    window.ShopSphere = {
+    window.Hamzify = {
         showToast,
         openMobileMenu,
         closeMobileMenu
