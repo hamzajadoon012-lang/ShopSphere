@@ -637,7 +637,7 @@
         },
         {
             title: 'Top 10 Best Products to Buy Online',
-            category: 'Digital Products',
+            category: 'Home Decorations',
             date: '2024-12-28',
             readTime: '12 min read',
             excerpt: 'Top 10 best products to buy online with reviews, deals, and budget-friendly picks.',
