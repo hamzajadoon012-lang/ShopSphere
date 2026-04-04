@@ -605,77 +605,6 @@
     }
 
     // ========================================
-    // BLOG LISTING (Newest First)
-    // ========================================
-    const blogPosts = [
-        {
-            title: 'Best Products Under $50',
-            category: 'Best Deals Online',
-            date: '2026-04-03',
-            readTime: '6 min read',
-            excerpt: 'Buyer-intent picks under $50 with reviews and deals.',
-            image: 'images/blog-2.jpg',
-            url: 'blog-best-under-50.html'
-        },
-        {
-            title: 'Top Rated Products 2026',
-            category: 'Top Rated 2026',
-            date: '2026-04-02',
-            readTime: '7 min read',
-            excerpt: 'Top rated products 2026 with buyer-intent picks and best deals online.',
-            image: 'images/blog-3.jpg',
-            url: 'blog-top-rated-2026.html'
-        },
-        {
-            title: 'Best Fashion Picks Under $100',
-            category: 'Fashion',
-            date: '2026-04-01',
-            readTime: '5 min read',
-            excerpt: 'Top rated fashion 2026 picks under $100 with buyer-intent deals.',
-            image: 'images/blog-1.jpg',
-            url: 'blog-fashion-under-100.html'
-        },
-        {
-            title: 'Top 10 Best Products to Buy Online',
-            category: 'Home Decorations',
-            date: '2024-12-28',
-            readTime: '12 min read',
-            excerpt: 'Top 10 best products to buy online with reviews, deals, and budget-friendly picks.',
-            image: 'images/blog-1.jpg',
-            url: 'blog.html'
-        }
-    ];
-
-    function initBlogList() {
-        const list = document.getElementById('blogList');
-        if (!list) return;
-
-        const sorted = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
-        list.innerHTML = '';
-
-        sorted.forEach(post => {
-            const card = document.createElement('article');
-            card.className = 'blog-card';
-            card.innerHTML = `
-                <div class="blog-image">
-                    <img src="${post.image}" alt="${post.title}" loading="lazy">
-                    <span class="blog-category">${post.category}</span>
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <span><i class="far fa-calendar"></i> ${post.date}</span>
-                        <span><i class="far fa-clock"></i> ${post.readTime}</span>
-                    </div>
-                    <h3 class="blog-title">${post.title}</h3>
-                    <p class="blog-excerpt">${post.excerpt}</p>
-                    <a href="${post.url}" class="blog-readmore">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
-            `;
-            list.appendChild(card);
-        });
-    }
-
-    // ========================================
     // LAZY LOADING IMAGES
     // ========================================
     function initLazyLoading() {
@@ -854,8 +783,7 @@
         initLazyLoading();
         initProductCardEffects();
         initShareButtons();
-        initBlogList();
-    }
+        }
 
     // Run initialization when DOM is ready
     if (document.readyState === 'loading') {

@@ -21,7 +21,7 @@ A comprehensive, high-class affiliate marketing website for Hamzify, featuring A
    - Newsletter signup
    - Comprehensive footer
 
-2. **blog.html** - Blog post page with:
+2. **blog/index.html** - Blog listing page (empty until you add posts):
    - Hero banner with article info
    - Full article content
    - Product embed cards
@@ -57,7 +57,7 @@ A comprehensive, high-class affiliate marketing website for Hamzify, featuring A
 ```
 /
 ├── index.html              # Main landing page
-├── blog.html               # Blog post page
+├── blog\n�   +-- index.html         # Blog listing page
 ├── design.md               # Design documentation
 ├── README.md               # This file
 ├── css/
